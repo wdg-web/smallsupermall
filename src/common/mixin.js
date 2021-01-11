@@ -28,7 +28,7 @@ export const backTopMixin = {
     },
     methods: {
         backTop() {
-            this.$refs.scroll.scrollBackTop(0, 0, 300);
+            this.$refs.scroll.scrollBackTop(0, 0, 1500);
         }
     }
 }
